@@ -1,4 +1,15 @@
-.App {
+body {
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  color: #444;
+  background: #E0B1CB;
+  font: 300 11px/1.4 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
