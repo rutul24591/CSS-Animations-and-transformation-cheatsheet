@@ -1,5 +1,5 @@
 import React from "react";
-import Content from "../Content";
+// import Content from "../Content";
 import Header from "../Header";
 import Transforms from "../Transforms";
 
@@ -11,10 +11,10 @@ const Layout = () => {
         <div className="layout-container">
             <Header text={headerText} />
             <Transforms/>
-            <Content header="Animations"/>
+            {/* <Content header="Animations"/>
             <Content header="Transitions"/>
             <Content header="Target"/>
-            <Content header="Filters"/>
+            <Content header="Filters"/> */}
         </div>    
     );
 }

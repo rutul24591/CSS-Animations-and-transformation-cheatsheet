@@ -1,14 +1,26 @@
-.transforms-container{
+.transforms-header-container{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: 30px;
     padding-bottom: 15px;
-    border-bottom: 3px solid #BE95C4;
+    border-bottom: 3px solid #E5E5E5;
 }
 
 .transforms-header {
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 42px;
+    color: #E0B1CB;
+}
+
+.transforms-content-container {
+    margin: 30px;
+    display: flex;
+    h1 {
+        color: #FFC8DD;
+        font-size: 32px;
+        border-bottom: 1px solid #FFC8DD;
+        padding-bottom: 8px;
+    }
 }
