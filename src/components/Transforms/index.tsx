@@ -65,8 +65,71 @@ const Transforms = () => {
                             <ul>
                                <li>Has companion functions to move only in one direction:</li>
                             </ul>
-                            <p>transform: translateX();</p>
-                            <p>transform: translateY();</p>
+                            <p><i>transform: translateX();</i></p>
+                            <p><i>transform: translateY();</i></p>
+                        </div>
+                    </div>
+                    <div className="transform-scale-row">
+                        <div className="col-12 content-header-description">
+                            <h1 className="content-header">transform: scale(x, y)</h1>
+                            <ul>
+                                <li>Grow or shrink an element and all its children.</li>;
+                                <li>1 is what the element currently is; .6 is smaller; 2.3 is bigger.</li>;
+                            </ul>
+                        </div>
+                        <div className="col-12 content-code-button-container">
+                            <div className="row code-button-row">
+                                <div className="col-6 code-snippet">
+                                            <div className="code">
+                                                {`.view-button {`}<br/>
+                                                &emsp;&emsp;&emsp;{`transform: scale(1.4); `}<br/>
+                                                {`}`}             
+                                            </div>
+                                </div>
+                                <div className="col-6 button-container">
+                                    <Button label="View Button" class="transform-scale-view-button" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 content-header-description">
+                            <ul>
+                               <li>Has companion functions to scale only in one direction:</li>
+                            </ul>
+                            <p><i>transform: translateX();</i></p>
+                            <p><i>transform: translateY();</i></p>
+                            <h4>/* OR combined together */</h4>
+                            <p><i>transform: scale(1.4, 3);</i></p>
+                        </div>
+                    </div>
+                    <div className="transform-skew-row">
+                        <div className="col-12 content-header-description">
+                            <h1 className="content-header">transform: skew(deg, deg)</h1>
+                            <ul>
+                                <li>Grow or shrink an element and all its children.</li>;
+                                <li>1 is what the element currently is; .6 is smaller; 2.3 is bigger.</li>;
+                            </ul>
+                        </div>
+                        <div className="col-12 content-code-button-container">
+                            <div className="row code-button-row">
+                                <div className="col-6 code-snippet">
+                                            <div className="code">
+                                                {`.view-button {`}<br/>
+                                                &emsp;&emsp;&emsp;{`/* Leaving the second value off will only skew horizontally */ `}<br/>
+                                                &emsp;&emsp;&emsp;{`transform: skew(12deg); `}<br/>
+                                                {`}`}             
+                                            </div>
+                                </div>
+                                <div className="col-6 button-container">
+                                    <Button label="View Button" class="transform-skew-view-button" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 content-header-description">
+                            <ul>
+                               <li>Has companion functions to skew only in one direction:</li>
+                            </ul>
+                            <p><i>transform: skewX();</i></p>
+                            <p><i>transform: skewY();</i></p>
                         </div>
                     </div>
                 </div>

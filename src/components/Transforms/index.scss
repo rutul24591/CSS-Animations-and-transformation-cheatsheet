@@ -52,7 +52,7 @@
     margin-bottom: 30px;
 }
 
-.transform-rotate-row, .transform-translate-row {
+.transform-rotate-row, .transform-translate-row, .transform-scale-row, .transform-skew-row{
     margin-bottom: 30px;
 }
 
@@ -62,7 +62,12 @@
     p {
         color: #FFC8DD;
         font-size: 22px;
-        padding: 5px 30px;
+        padding: 5px 50px;
+    }
+    h4{
+        color: #FFC8DD;
+        font-size: 22px;
+        padding: 5px 10px;
     }
 }
 
@@ -102,7 +107,7 @@
     .code{
         display: flex;
         justify-content: flex-start;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         color:blueviolet;
     }
@@ -141,6 +146,28 @@
     width: 200px;
     height: 50px;
     transform: translate(2em, 0);
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+}
+
+.transform-scale-view-button{
+    width: 200px;
+    height: 50px;
+    transform: scale(1.4);
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+}
+
+.transform-skew-view-button{
+    width: 200px;
+    height: 50px;
+    transform: skew(12deg);
     color:#5E548E;
     font-size: 18px;
     background-color: #CDB4D8;
