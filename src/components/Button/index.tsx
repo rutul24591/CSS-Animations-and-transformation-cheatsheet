@@ -12,10 +12,6 @@ const Button = (props: ButtonProps) => {
     <button
       className={props.class}
       type="button"
-      onClick={() => {
-        // eslint-disable-next-line no-console
-        console.log("Button clicked");
-      }}
     >
       {props.label}
     </button>
