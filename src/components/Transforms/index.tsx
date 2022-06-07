@@ -42,8 +42,8 @@ const Transforms = () => {
                         <div className="col-12 content-header-description">
                             <h1 className="content-header">transform: translate(x, y)</h1>
                             <ul>
-                                <li>Similar to position relative; will move an element around on the screen without affecting other elements.</li>;
-                                <li>The position is based on where the element is currently located.</li>;
+                                <li>Similar to position relative; will move an element around on the screen without affecting other elements.</li>
+                                <li>The position is based on where the element is currently located.</li>
                             </ul>
                         </div>
                         <div className="col-12 content-code-button-container">
@@ -73,8 +73,8 @@ const Transforms = () => {
                         <div className="col-12 content-header-description">
                             <h1 className="content-header">transform: scale(x, y)</h1>
                             <ul>
-                                <li>Grow or shrink an element and all its children.</li>;
-                                <li>1 is what the element currently is; .6 is smaller; 2.3 is bigger.</li>;
+                                <li>Grow or shrink an element and all its children.</li>
+                                <li>1 is what the element currently is; .6 is smaller; 2.3 is bigger.</li>
                             </ul>
                         </div>
                         <div className="col-12 content-code-button-container">
@@ -121,6 +121,80 @@ const Transforms = () => {
                                 </div>
                                 <div className="col-6 button-container">
                                     <Button label="View Button" class="transform-skew-view-button" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 content-header-description">
+                            <ul>
+                               <li>Has companion functions to skew only in one direction:</li>
+                            </ul>
+                            <p><i>transform: skewX();</i></p>
+                            <p><i>transform: skewY();</i></p>
+                        </div>
+                    </div>
+                    <div className="transform-origin-row">
+                        <div className="col-12 content-header-description">
+                            <h1 className="content-header">transform-origin</h1>
+                            <ul>
+                                <li>Control the anchor point for where the transform occurs.</li>
+                                <li>Similar to background-position: horizontal then vertical.</li>
+                                <li>The default is in the complete centre of the element, aka center center</li>
+                            </ul>
+                        </div>
+                        <div className="col-12 content-code-button-container">
+                            <div className="row code-button-row">
+                                <div className="col-6 code-snippet-large">
+                                            <div className="code">
+                                                &emsp;&emsp;&emsp;{`transform-origin: center center; `}<br/> 
+                                                &emsp;&emsp;&emsp;{`/* Top left corner */`}<br/>
+                                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{`transform-origin: left top;`}<br/> 
+                                                &emsp;&emsp;&emsp;{`/* Centre of the top edge */`}<br/>
+                                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{`transform-origin: center top;`}<br/> 
+                                                &emsp;&emsp;&emsp;{`/* 10px in from the left, 10px down from the top */`}<br/>
+                                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{`transform-origin: 10px 10px;`}<br/> 
+                                                &emsp;&emsp;&emsp;{`/* Centre horizontally, 10px up from bottom */`}<br/>    
+                                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{`transform-origin: center calc(100% - 5px);`}<br/>         
+                                            </div>
+                                </div>
+                                {/* <div className="col-6 button-container">
+                                    <Button label="View Button" class="transform-origin-view-button" />
+                                </div> */}
+                            </div>
+                        </div>
+                        <div className="col-12 content-header-description">
+                            <ul>
+                               <li>Has companion functions to skew only in one direction:</li>
+                            </ul>
+                            <p><i>transform: skewX();</i></p>
+                            <p><i>transform: skewY();</i></p>
+                        </div>
+                    </div>
+
+                    <div className="transform-multiple-row">
+                        <div className="col-12 content-header-description">
+                            <h1 className="content-header">Multiple transformations</h1>
+                            <ul>
+                                <li>Written on a single line, separated by a space.</li>
+                                <li>Multiple lines won’t work.</li>
+                                <li>Only the second entry will be activated.</li>
+                            </ul>
+                        </div>
+                        <div className="col-12 content-code-button-container">
+                            <div className="row code-button-row">
+                                <div className="col-6 code-snippet-medium">
+                                            <div className="code">
+                                                {`.view-button {`}<br/>
+                                                &emsp;{`/* Right */`}<br/>
+                                                &emsp;&emsp;&emsp;{`transform: rotate(33deg) scale(1.2);`}<br/>
+                                                &emsp;&emsp;&emsp;{``}<br/>
+                                                &emsp;{`/* Wrong */`}<br/>
+                                                &emsp;&emsp;&emsp;{`transform: rotate(33deg);`}<br/>
+                                                &emsp;&emsp;&emsp;{`transform: scale(1.2);`}<br/>
+                                                {`}`}             
+                                            </div>
+                                </div>
+                                <div className="col-6 button-container">
+                                    <Button label="View Button" class="transform-multiple-view-button" />
                                 </div>
                             </div>
                         </div>
