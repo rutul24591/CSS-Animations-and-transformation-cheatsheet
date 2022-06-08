@@ -60,7 +60,7 @@
     margin-bottom: 30px;
 }
 
-.transition-rotate-row, .transition-translate-row, .transition-scale-row, .transition-skew-row, .transition-origin-row, .transition-multiple-row,
+.transition-multiple-row,
 .transition-simple-row{
     margin-bottom: 30px;
 }
@@ -162,13 +162,6 @@
     }
 }
 
-// .button-container {
-//     display: flex;
-//     justify-content: center;
-//     text-align: center;
-//     width: 300px;
-//     align-items: center;
-// }
 
 .button-style{
     width: 200px;
@@ -180,49 +173,6 @@
     border-radius: 15px;
 }
 
-.transition-rotate-view-button-negative-three-three-degrees{
-    width: 200px;
-    height: 50px;
-    // transition: rotate(-33deg);
-    color:#5E548E;
-    font-size: 18px;
-    background-color: #CDB4D8;
-    border: 1px solid #CDB4D8;
-    border-radius: 15px;
-}
-
-.transition-translate-view-button{
-    width: 200px;
-    height: 50px;
-    // transition: translate(2em, 0);
-    color:#5E548E;
-    font-size: 18px;
-    background-color: #CDB4D8;
-    border: 1px solid #CDB4D8;
-    border-radius: 15px;
-}
-
-.transition-scale-view-button{
-    width: 200px;
-    height: 50px;
-    // transition: scale(1.4);
-    color:#5E548E;
-    font-size: 18px;
-    background-color: #CDB4D8;
-    border: 1px solid #CDB4D8;
-    border-radius: 15px;
-}
-
-.transition-skew-view-button{
-    width: 200px;
-    height: 50px;
-    // transition: skew(12deg);
-    color:#5E548E;
-    font-size: 18px;
-    background-color: #CDB4D8;
-    border: 1px solid #CDB4D8;
-    border-radius: 15px;
-}
 
 .transition-multiple-view-button {
     width: 200px;
@@ -253,7 +203,6 @@
     border-radius: 15px;
     &:focus {
         background-color: #F4ACB7;
-        color: #000000;
         transition: all 1s 2s linear;
         -moz-transition: all 1s 2s linear; /* Firefox 4 */
         -webkit-transition: all 1s 2s linear; /* Safari and Chrome */
