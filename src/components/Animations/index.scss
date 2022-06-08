@@ -92,7 +92,7 @@
     padding-left: 15px;
 }
 
-.content-code-button-container{
+.animations-content-code-button-container{
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -104,14 +104,14 @@
     padding: 20px;
 }
 
-.code-button-row{
+.animations-code-button-row{
     flex-direction: row;
     flex-grow: 1;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.code-snippet{
+.animations-code-snippet{
     font-size: 14px;
     margin-top: 15px;
     background-color: #CDB4D8;
@@ -128,7 +128,7 @@
     }
 }
 
-.code-snippet-medium{
+.animations-code-snippet-medium{
     font-size: 14px;
     margin-top: 15px;
     background-color: #CDB4D8;
@@ -145,7 +145,7 @@
     }
 }
 
-.code-snippet-large{
+.animations-code-snippet-large{
     font-size: 14px;
     margin-top: 15px;
     background-color: #CDB4D8;
@@ -162,13 +162,13 @@
     }
 }
 
-// .button-container {
-//     display: flex;
-//     justify-content: center;
-//     text-align: center;
-//     width: 300px;
-//     align-items: center;
-// }
+.animations-button-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    align-items: center;
+}
 
 .button-style{
     width: 200px;

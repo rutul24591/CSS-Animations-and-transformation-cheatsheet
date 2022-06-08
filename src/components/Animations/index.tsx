@@ -25,9 +25,9 @@ const Animations = () => {
                         <li>Written on a single line, separated by a space.</li>
                       </ul>
                     </div>
-                    <div className="col-12 content-code-button-container">
-                      <div className="row code-button-row">
-                        <div className="col-6 code-snippet">
+                    <div className="col-12 animations-content-code-button-container">
+                      <div className="row animations-code-button-row">
+                        <div className="col-6 animations-code-snippet">
                           <div className="code">
                             {`.view-button {`}
                             <br />
@@ -37,7 +37,7 @@ const Animations = () => {
                             {`}`}
                           </div>
                         </div>
-                        <div className="col-6 button-container">
+                        <div className="col-6 animations-button-container">
                           <Button
                             label="View Button"
                             class="animation-multiple-view-button"
@@ -56,9 +56,9 @@ const Animations = () => {
                         <li>With linear easing (no easing).</li>
                       </ul>
                     </div>
-                    <div className="col-12 content-code-button-container">
-                      <div className="row code-button-row">
-                        <div className="col-6 code-snippet">
+                    <div className="col-12 animations-content-code-button-container">
+                      <div className="row animations-code-button-row">
+                        <div className="col-6 animations-code-snippet">
                           <div className="code">
                             {`.view-button {`}
                             <br />
@@ -68,7 +68,7 @@ const Animations = () => {
                             {`}`}
                           </div>
                         </div>
-                        <div className="col-6 button-container">
+                        <div className="col-6 animations-button-container">
                           <Button
                             label="View Button"
                             class="animation-simple-view-button"
@@ -84,9 +84,9 @@ const Animations = () => {
                       </ul>
                     </div>
 
-                    <div className="col-12 content-code-button-container">
-                      <div className="row code-button-row">
-                        <div className="col-6 code-snippet">
+                    <div className="col-12 animations-content-code-button-container">
+                      <div className="row animations-code-button-row">
+                        <div className="col-6 animations-code-snippet">
                           <div className="code">
                             {`.view-button {`}
                             <br />
@@ -96,7 +96,7 @@ const Animations = () => {
                             {`}`}
                           </div>
                         </div>
-                        <div className="col-6 button-container">
+                        <div className="col-6 animations-button-container">
                           <Button
                             label="View Button"
                             class="animation-simple-easing-view-button"

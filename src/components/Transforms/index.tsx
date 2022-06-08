@@ -23,16 +23,16 @@ const Transforms = () => {
                                 <li>Can use negative numbers to go backwards.</li>;
                             </ul>
                         </div>
-                        <div className="col-12 content-code-button-container">
-                            <div className="row code-button-row">
-                                <div className="col-6 code-snippet">
+                        <div className="col-12 transforms-content-code-button-container">
+                            <div className="row transforms-code-button-row">
+                                <div className="col-6 transforms-code-snippet">
                                     <div className="code">
                                         {`.view-button {`}<br/>
                                         &emsp;&emsp;&emsp;{`transform: rotate(-33deg); `}<br/>
                                         {`}`}             
                                     </div>
                                 </div>
-                                <div className="col-6 button-container">
+                                <div className="col-6 transforms-button-container">
                                     <Button label="View Button" class="transform-rotate-view-button-negative-three-three-degrees" />
                                 </div>
                             </div>
@@ -46,9 +46,9 @@ const Transforms = () => {
                                 <li>The position is based on where the element is currently located.</li>
                             </ul>
                         </div>
-                        <div className="col-12 content-code-button-container">
-                            <div className="row code-button-row">
-                                <div className="col-6 code-snippet">
+                        <div className="col-12 transforms-content-code-button-container">
+                            <div className="row transforms-code-button-row">
+                                <div className="col-6 transforms-code-snippet">
                                             <div className="code">
                                                 {`.view-button {`}<br/>
                                                 &emsp;&emsp;&emsp;{`/* Move rightwards 2em and no vertical movement */`}<br/>
@@ -56,7 +56,7 @@ const Transforms = () => {
                                                 {`}`}             
                                             </div>
                                 </div>
-                                <div className="col-6 button-container">
+                                <div className="col-6 transforms-button-container">
                                     <Button label="View Button" class="transform-translate-view-button" />
                                 </div>
                             </div>
@@ -77,16 +77,16 @@ const Transforms = () => {
                                 <li>1 is what the element currently is; .6 is smaller; 2.3 is bigger.</li>
                             </ul>
                         </div>
-                        <div className="col-12 content-code-button-container">
-                            <div className="row code-button-row">
-                                <div className="col-6 code-snippet">
+                        <div className="col-12 transforms-content-code-button-container">
+                            <div className="row transforms-code-button-row">
+                                <div className="col-6 transforms-code-snippet">
                                             <div className="code">
                                                 {`.view-button {`}<br/>
                                                 &emsp;&emsp;&emsp;{`transform: scale(1.4); `}<br/>
                                                 {`}`}             
                                             </div>
                                 </div>
-                                <div className="col-6 button-container">
+                                <div className="col-6 transforms-button-container">
                                     <Button label="View Button" class="transform-scale-view-button" />
                                 </div>
                             </div>
@@ -109,9 +109,9 @@ const Transforms = () => {
                                 <li>1 is what the element currently is; .6 is smaller; 2.3 is bigger.</li>;
                             </ul>
                         </div>
-                        <div className="col-12 content-code-button-container">
-                            <div className="row code-button-row">
-                                <div className="col-6 code-snippet">
+                        <div className="col-12 transforms-content-code-button-container">
+                            <div className="row transforms-code-button-row">
+                                <div className="col-6 transforms-code-snippet">
                                             <div className="code">
                                                 {`.view-button {`}<br/>
                                                 &emsp;&emsp;&emsp;{`/* Leaving the second value off will only skew horizontally */ `}<br/>
@@ -119,7 +119,7 @@ const Transforms = () => {
                                                 {`}`}             
                                             </div>
                                 </div>
-                                <div className="col-6 button-container">
+                                <div className="col-6 transforms-button-container">
                                     <Button label="View Button" class="transform-skew-view-button" />
                                 </div>
                             </div>
@@ -141,9 +141,9 @@ const Transforms = () => {
                                 <li>The default is in the complete centre of the element, aka center center</li>
                             </ul>
                         </div>
-                        <div className="col-12 content-code-button-container">
-                            <div className="row code-button-row">
-                                <div className="col-6 code-snippet-large">
+                        <div className="col-12 transforms-content-code-button-container">
+                            <div className="row transforms-code-button-row">
+                                <div className="col-6 transforms-code-snippet-large">
                                             <div className="code">
                                                 &emsp;&emsp;&emsp;{`transform-origin: center center; `}<br/> 
                                                 &emsp;&emsp;&emsp;{`/* Top left corner */`}<br/>
@@ -172,9 +172,9 @@ const Transforms = () => {
                                 <li>Only the second entry will be activated.</li>
                             </ul>
                         </div>
-                        <div className="col-12 content-code-button-container">
-                            <div className="row code-button-row">
-                                <div className="col-6 code-snippet-medium">
+                        <div className="col-12 transforms-content-code-button-container">
+                            <div className="row transforms-code-button-row">
+                                <div className="col-6 transforms-code-snippet-medium">
                                             <div className="code">
                                                 {`.view-button {`}<br/>
                                                 &emsp;{`/* Right */`}<br/>
@@ -186,7 +186,7 @@ const Transforms = () => {
                                                 {`}`}             
                                             </div>
                                 </div>
-                                <div className="col-6 button-container">
+                                <div className="col-6 transforms-button-container">
                                     <Button label="View Button" class="transform-multiple-view-button" />
                                 </div>
                             </div>

@@ -25,9 +25,9 @@ const Transitions = () => {
                         <li>Written on a single line, separated by a space.</li>
                       </ul>
                     </div>
-                    <div className="col-12 content-code-button-container">
-                      <div className="row code-button-row">
-                        <div className="col-6 code-snippet">
+                    <div className="col-12 transitions-content-code-button-container">
+                      <div className="row transitions-code-button-row">
+                        <div className="col-6 transitions-code-snippet">
                           <div className="code">
                             {`.view-button {`}
                             <br />
@@ -37,7 +37,7 @@ const Transitions = () => {
                             {`}`}
                           </div>
                         </div>
-                        <div className="col-6 button-container">
+                        <div className="col-6 transitions-button-container">
                           <Button
                             label="View Button"
                             class="transition-multiple-view-button"
@@ -56,9 +56,9 @@ const Transitions = () => {
                         <li>With linear easing (no easing).</li>
                       </ul>
                     </div>
-                    <div className="col-12 content-code-button-container">
-                      <div className="row code-button-row">
-                        <div className="col-6 code-snippet">
+                    <div className="col-12 transitions-content-code-button-container">
+                      <div className="row transitions-code-button-row">
+                        <div className="col-6 transitions-code-snippet">
                           <div className="code">
                             {`.view-button {`}
                             <br />
@@ -68,7 +68,7 @@ const Transitions = () => {
                             {`}`}
                           </div>
                         </div>
-                        <div className="col-6 button-container">
+                        <div className="col-6 transitions-button-container">
                           <Button
                             label="View Button"
                             class="transition-simple-view-button"
@@ -76,7 +76,7 @@ const Transitions = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="sub-content">
+                    <div className="transitions-sub-content-container">
                       <h3 className="content-sub-header">Easings</h3>
                       <ul>
                         <li>linear, ease, ease-in, ease-out, ease-in-out</li>
@@ -84,9 +84,9 @@ const Transitions = () => {
                       </ul>
                     </div>
 
-                    <div className="col-12 content-code-button-container">
-                      <div className="row code-button-row">
-                        <div className="col-6 code-snippet">
+                    <div className="col-12 transitions-content-code-button-container">
+                      <div className="row transitions-code-button-row">
+                        <div className="col-6 col-lg-12 col-md-12 transitions-code-snippet">
                           <div className="code">
                             {`.view-button {`}
                             <br />
@@ -96,7 +96,7 @@ const Transitions = () => {
                             {`}`}
                           </div>
                         </div>
-                        <div className="col-6 button-container">
+                        <div className="col-6 col-lg-12 col-md-12 transitions-button-container">
                           <Button
                             label="View Button"
                             class="transition-simple-easing-view-button"
