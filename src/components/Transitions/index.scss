@@ -1,0 +1,282 @@
+.transitions-container {
+    overflow: hidden;
+    height: auto;
+}
+
+.transitions-header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 15px;
+    border: 3px solid #E5E5E5;
+}
+
+.transition-sub-header{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #E0B1CB;
+}
+
+.transitions-header {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 42px;
+    color: #E0B1CB;
+}
+
+.transitions-content-container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        color: #FFC8DD;
+        font-size: 32px;
+        border-bottom: 1px solid #FFC8DD;
+        padding-bottom: 8px;
+    }
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // margin: 15px;
+    ul{
+        li{
+            font-size: 22px;
+            color: #FFC8DD
+        }
+    }
+}
+
+.content-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.transition-rotate-row, .transition-translate-row, .transition-scale-row, .transition-skew-row, .transition-origin-row, .transition-multiple-row,
+.transition-simple-row{
+    margin-bottom: 30px;
+}
+
+.content-header-description{
+    display: flex;
+    flex-direction: column;
+    p {
+        color: #FFC8DD;
+        font-size: 22px;
+        padding: 5px 50px;
+    }
+    h4{
+        color: #FFC8DD;
+        font-size: 22px;
+        padding: 5px 10px;
+    }
+}
+
+.content-header{
+    color: #FFC8DD;
+    font-size: 32px;
+    border-bottom: 1px solid #FFC8DD;
+}
+
+.content-sub-header{
+    color: #FFC8DD;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.content-code-button-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.sub-content-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.code-button-row{
+    flex-direction: row;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.code-snippet{
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: #CDB4D8;
+    height: 100px;
+    margin-left: 15px;
+    width: 500px;
+    padding: 15px;
+    .code{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+        font-weight: bold;
+        color:blueviolet;
+    }
+}
+
+.code-snippet-medium{
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: #CDB4D8;
+    height: 180px;
+    margin-left: 15px;
+    width: 500px;
+    padding: 15px;
+    .code{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+        font-weight: bold;
+        color:blueviolet;
+    }
+}
+
+.code-snippet-large{
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: #CDB4D8;
+    height: 220px;
+    margin-left: 15px;
+    width: 500px;
+    padding: 15px;
+    .code{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+        font-weight: bold;
+        color:blueviolet;
+    }
+}
+
+// .button-container {
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     width: 300px;
+//     align-items: center;
+// }
+
+.button-style{
+    width: 200px;
+    height: 50px;
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+}
+
+.transition-rotate-view-button-negative-three-three-degrees{
+    width: 200px;
+    height: 50px;
+    // transition: rotate(-33deg);
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+}
+
+.transition-translate-view-button{
+    width: 200px;
+    height: 50px;
+    // transition: translate(2em, 0);
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+}
+
+.transition-scale-view-button{
+    width: 200px;
+    height: 50px;
+    // transition: scale(1.4);
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+}
+
+.transition-skew-view-button{
+    width: 200px;
+    height: 50px;
+    // transition: skew(12deg);
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+}
+
+.transition-multiple-view-button {
+    width: 200px;
+    height: 50px;
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+    &:focus {
+        background-color: #F4ACB7;
+        color: #000000;
+        transition: background-color 1s linear, color .5s linear;
+        -moz-transition: background-color 1s linear, color .5s linear; /* Firefox 4 */
+        -webkit-transition: background-color 1s linear, color .5s linear; /* Safari and Chrome */
+        -o-transition: background-color 1s linear, color .5s linear; /* Opera */
+        -ms-transition: background-color 1s linear, color .5s linear; /* Explorer 10 */
+    }
+}
+
+.transition-simple-view-button {
+    width: 200px;
+    height: 50px;
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+    &:focus {
+        background-color: #F4ACB7;
+        color: #000000;
+        transition: all 1s 2s linear;
+        -moz-transition: all 1s 2s linear; /* Firefox 4 */
+        -webkit-transition: all 1s 2s linear; /* Safari and Chrome */
+        -o-transition: all 1s 2s linear; /* Opera */
+        -ms-transition: all 1s 2s linear; /* Explorer 10 */
+    }
+}
+
+.transition-simple-easing-view-button{
+    width: 200px;
+    height: 50px;
+    color:#5E548E;
+    font-size: 18px;
+    background-color: #CDB4D8;
+    border: 1px solid #CDB4D8;
+    border-radius: 15px;
+    &:focus {
+        background-color: #F4ACB7;
+        transition: background-color 1s steps(4);
+        -moz-transition: background-color 1s steps(4); /* Firefox 4 */
+        -webkit-transition: background-color 1s steps(4); /* Safari and Chrome */
+        -o-transition: background-color 1s steps(4); /* Opera */
+        -ms-transition: background-color 1s steps(4); /* Explorer 10 */
+    }
+}
+

@@ -161,13 +161,6 @@ const Transforms = () => {
                                 </div> */}
                             </div>
                         </div>
-                        <div className="col-12 content-header-description">
-                            <ul>
-                               <li>Has companion functions to skew only in one direction:</li>
-                            </ul>
-                            <p><i>transform: skewX();</i></p>
-                            <p><i>transform: skewY();</i></p>
-                        </div>
                     </div>
 
                     <div className="transform-multiple-row">
@@ -197,13 +190,6 @@ const Transforms = () => {
                                     <Button label="View Button" class="transform-multiple-view-button" />
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-12 content-header-description">
-                            <ul>
-                               <li>Has companion functions to skew only in one direction:</li>
-                            </ul>
-                            <p><i>transform: skewX();</i></p>
-                            <p><i>transform: skewY();</i></p>
                         </div>
                     </div>
                 </div>

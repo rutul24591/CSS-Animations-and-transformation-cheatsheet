@@ -1,7 +1,9 @@
 import React from "react";
-// import Content from "../Content";
+
 import Header from "../Header";
 import Transforms from "../Transforms";
+import Transitions from "../Transitions";
+import Animations from "../Animations";
 
 import './index.scss';
 
@@ -10,11 +12,9 @@ const Layout = () => {
     return(
         <div className="layout-container">
             <Header text={headerText} />
+            <Animations />
             <Transforms/>
-            {/* <Content header="Animations"/>
-            <Content header="Transitions"/>
-            <Content header="Target"/>
-            <Content header="Filters"/> */}
+            <Transitions />
         </div>    
     );
 }
